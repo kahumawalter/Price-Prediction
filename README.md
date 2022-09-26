@@ -15,4 +15,6 @@ There is a strong correlation between my target 'Price' and features like carat,
 
 # Summary of the Project
 
-After cleaning and preprocessing the data, I made predictions to the price using regression models like Random Forest Regressor, Linear Regression and Decision Tree Regressor. After seeing the results of all the models, it was evident that the Random Forest Regressor out performed the rest with a score 98% accuracy on the test data. The model was also tuned to a max depth of 32 for it score higher. 
+After cleaning and preprocessing the data, I made predictions to the price using regression models like Random Forest Regressor, Linear Regression and Decision Tree Regressor. After seeing the results of all the models, it was evident that the Random Forest Regressor out performed the rest with a 98% accuracy score on the test data. The model was also tuned to a max depth of 32 for it to score higher. 
+
+The predicted price was added as to the data as a feature. 
