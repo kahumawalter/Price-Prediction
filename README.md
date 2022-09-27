@@ -7,11 +7,16 @@ There are 53,940 diamonds in the dataset with 10 features (carat, cut, color, cl
 The project is split into 5 projects which show data cleaning, data visualization and machine learning models like Random Tree Regressor, Linear Regression and Decision Tree Regressor that were used to make predictions to the price.  
 
 # Data Visualization
-To get a better understanding of the data, I used the heat map visualization to see which features were highly correlated. 
+To get a better understanding of the data, I used the a scatter plot to see the relationship between the features. 
 
-![alt text](Unknown-7.png)
+![alt text](Unknown-9.png)
 
-There is a strong correlation between my target 'Price' and features like carat, x,y and z. This explains that these play a big factor in the price evaluation.
+According to the scatter plot which sampled 1000 data points, the more the carats the higher the price of the diamonds. However there are some outliers where the carats were roughly high as 1.6 but were valued at 5500. There were also times when the carat was relatively low at 1.3 but was valued at 15,000USD.
+The scatter plot also shows us the length(x) of the diamond which varies in color. As the length of the diamond grows the more expensive the diamond turned out to be. However there are some outliers where length was 8mm but the diamond price was roughly low at 7500 USD. While in some situations the diamond length was 6mm but the price was relatively high at 15,000 USD
+
+![alt text](Unknown-8.png)
+
+According to the density graph above, the majority of the diamonds in our sample data have 0.2 to 0.8 carats as shown by the dark contours and these range between 300 and 2500 USD. The graph also shows that the higher the carats the more expensive the diamond.
 
 # Summary of the Project
 
